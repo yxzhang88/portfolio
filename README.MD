@@ -25,7 +25,10 @@ This website is design friendly for all screen devices.
 2. Make Header section of websiter
    - add background photos
    - add/modify header section
-3.
+3. About Me section
+   - photo/description
+   - professional experience
+   - personal experience
 
 ## Author
 
