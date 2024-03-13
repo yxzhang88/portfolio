@@ -6,7 +6,7 @@
 }
 
 body {
-  background: Beige;
+  background: whitesmoke;
   color: black;
 }
 
@@ -67,4 +67,51 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
   width: 100%; /* 当链接被悬停时，设置伪元素的宽度为 100% */
+}
+
+.header-text {
+  margin-top: 13%;
+  font-size: 20px;
+}
+
+.header-text h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  color: rgb(77, 93, 77);
+}
+
+.header-text h1 span {
+  color: rgb(217, 2, 2);
+}
+
+/* ---------------about---------------- */
+#about {
+  padding: 80px 0;
+  color: #ababab;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 35%;
+  color: blueviolet;
+}
+
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-col-2 {
+  flex-basis: 60%;
+}
+
+.sub-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
 }
