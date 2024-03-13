@@ -22,9 +22,13 @@ This website is design friendly for all screen devices.
    - Add and commit the file to the local Git repository.
    - Link local repository to a remote GitHub repository if not already linked.
    - Push the committed changes from local repository to the remote GitHub repository.
-2.
+2. Make Header section of websiter
+   - add background photos
+   - add/modify header section
+3.
 
 ## Author
 
 Miranda Zhang
-mirandazhang2024@gmail.com
+
+- mirandazhang2024@gmail.com
