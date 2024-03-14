@@ -39,7 +39,7 @@ nav {
   width: 400px;
 }
 
-/*将标签向页面右边靠，并且水平陈列他们，中间留空*/
+/*将标签向页面右边靠，并且水平陈列，中间留空*/
 nav ul li {
   display: inline-block; /* 将列表项水平排列 */
   list-style: none;
@@ -84,7 +84,7 @@ nav ul li a:hover::after {
   color: rgb(217, 2, 2);
 }
 
-/* ---------------about---------------- */
+/* ---------------About Me section---------------- */
 #about {
   padding: 80px 0;
   color: #ababab;
@@ -97,21 +97,69 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 {
-  flex-basis: 35%;
-  color: blueviolet;
+  flex-basis: 45%;
 }
 
 .about-col-1 img {
-  width: 100%;
+  width: 110%;
   border-radius: 15px;
 }
 
 .about-col-2 {
-  flex-basis: 60%;
+  flex-basis: 45%;
 }
 
 .sub-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: black;
+}
+
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+.tab-links {
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+/* underline of tak-links */
+.tab-links::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: lightcoral;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+  width: 60%;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.tab-contents ul li span {
+  color: rgb(180, 43, 68);
+  font-size: 14px;
+}
+
+/* 隐藏所有的标签内容 */
+.tab-contents {
+  display: none;
+}
+
+/* 显示skills的内容 */
+.tab-contents.active-tab {
+  display: block;
 }

@@ -21,24 +21,75 @@
           </ul>
         </nav>
         <div class="header-text">
-          <p> Lifelong learning mindset</p>
-          <h1> Hi, I am <span>Yanxian</span><br> from China</h1>
+          <p>Lifelong learning mindset</p>
+          <h1>Hi, I am<span>Yanxian</span><br>from China</h1>
         </div>
       </div>
     </div>
 
-    <!-- ---------------about---------------- -->
+    <!-- ---------------About Me section---------------- -->
     <div id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="images/user.png" height="350">
+            <img src="images/user.png">
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
+            <p>I've trained at coding bootcamp and completed a professional internship. My experience has prepared me for both front-end and back-end development. Outside of coding, I have a keen interest in handicrafts, particularly woodworking. Creating things from scratch is a hobby I deeply enjoy. What's fascinating is the similarity I've found between coding and crafting, both require patience, problem-solving skills, and a willingness to experiment with new ideas. </p>
+
+              <div class="tab-titles">
+                <!-- onclick event handler, to triggers opentab func -->
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br>Interfaces</li>
+                  <li><span>UI/UX</span><br>Interfaces</li>
+                  <li><span>UI/UX</span><br>Interfaces</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2023</span><br>Amazon - SDE Intern</li>
+                  <li><span>2022</span><br>Ada Developers Academy - Full Stack Developers Student</li>
+                  <li><span>2020-2021</span><br>Elgin Commuity College</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="projects">
+                <ul>
+                  <li><span>Amazon Prime Video - Multiple Seek</span><br>Full Stack: Swift/SwiftUI/iOS</li>
+                  <li><span>Stay Close Web App</Applet></span><br>Front-end: JaveScript/React/Bootstrap</li>
+                  <li><span>Weather Report</span><br>Font-end: JavaScript/HTML/CSS</li>
+                  <li><span>Inspiration-board</span><br>Full Stack: Js/React/CSS/Python/flask </li>
+                  <li><span>Personal Portfolio</span><br>Front-end: JS/HTML/CSS</li>
+                </ul>
+              </div>
+
           </div>
         </div>
       </div>
     </div>
+    <script>
+      // 获取所有的选项卡内容块和选项卡标签元素
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+      function opentab(tabname) {
+        // 遍历所有选项卡内容块，隐藏它们
+        for(tablink of tablinks){
+          tablink.classList.remove('active-link')
+        }
+        // 遍历所有选项卡标签元素，移除它们的激活状态
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove('active-tab')
+        }
+        // class is a property in JS used to manipulate the class names of an element
+        // 当active-link和active-tab被移除后，将活动状态类添加到选定的选项卡内容块和选项卡链接元素中以显示它们（下横线和内容块）
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab')
+      }
+    </script>
   </body>
 </html>

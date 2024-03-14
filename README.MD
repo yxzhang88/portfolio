@@ -29,6 +29,12 @@ This website is design friendly for all screen devices.
    - photo/description
    - professional experience
    - personal experience
+     -- Implemented dynamic tab functionality, enabling the display of corresponding description/content blocks upon tab click events.
+     -- This enhancement improves user experience, allowing easy navigation between different sections of the project.
+     -- Updated HTML structure to accommodate the new functionality and ensured consistency with JavaScript and CSS implementations..
+     添加了动态选项卡功能，现在点击选项卡时会触发事件显示相应的描述/内容块。
+     这一功能提升了用户体验，使用户可以轻松地在不同的项目部分之间进行导航。
+     更新了 HTML 结构以适应新功能并确保与 JavaScript 和 CSS 实现的一致性。
 
 ## Author
 
