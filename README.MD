@@ -37,6 +37,22 @@ This website is design friendly for all screen devices.
        - 这一功能提升了用户体验，使用户可以轻松地在不同的项目部分之间进行导航。
        - 更新了 HTML 结构以适应新功能并确保与 JavaScript 和 CSS 实现的一致性。
 
+## Related information
+
+1. Can't see the contribution on github after push the commit
+   - The reason is the user email in the git config of the local project is different from the email on GitHub. Therefore change the local one to be the same as the one on GitHub
+   - run
+     ```
+     $git config -- global user.emial
+     ```
+   - if there is no local emial set up, show nothing. Else, will display the email. Change/set the email address same as github account
+   - run
+     ```
+     $git config --global user.email "your_email@example.com"
+     ```
+   - done
+     **the noticeable difference lies on the commit page: if the commit is pushed using the github associated email, your username will be clickable. Otherwish, it won't work.**
+
 ## Author
 
 Miranda Zhang
