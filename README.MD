@@ -52,6 +52,9 @@ This website is designed to be user-friendly across all screen sizes.
 7. Mobile friendly
    - change the background pic size
    - created the side menu：open/close
+8. Submit a Form to Google Sheets
+   - using google apps script
+   - github tutorial: https://github.com/jamiewilson/form-to-google-sheets
 
 ## Related information
 
