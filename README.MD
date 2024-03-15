@@ -43,6 +43,10 @@ This website is design friendly for all screen devices.
        - Each project image comes to life with dynamic effects, ensuring an engaging user experience
        - 项目部分展示带有图像和简短描述的项目，鼠标悬停时显示详细信息，并带有颜色叠加以增强可见性。
        - 项目图像具有动态效果，确保引人入胜的用户体验
+5. Contact section
+   - add icons
+   - add contact form
+   - add download cv feature
 
 ## Related information
 
