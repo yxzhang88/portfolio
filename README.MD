@@ -10,7 +10,7 @@
 
 The website will including some image, skill, projects, study/work experience.
 Also will add contact info and contact form at the footer, then these contact form data will be recevied from the google sheets.
-This website is design friendly for all screen devices.
+This website is designed to be user-friendly across all screen sizes.
 
 ## Steps to build the website
 
@@ -49,6 +49,9 @@ This website is design friendly for all screen devices.
    - add download cv feature
 6. footer
    - Copyright
+7. Mobile friendly
+   - change the background pic size
+   - created the side menu：open/close
 
 ## Related information
 
