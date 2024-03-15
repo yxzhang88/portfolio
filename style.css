@@ -84,6 +84,12 @@ nav ul li a:hover::after {
   color: rgb(217, 2, 2);
 }
 
+.header-text h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  color: rgb(77, 93, 77);
+}
+
 /* ---------------About Me section---------------- */
 #about {
   padding: 80px 0;
@@ -162,4 +168,92 @@ nav ul li a:hover::after {
 /* 显示skills的内容 */
 .tab-contents.active-tab {
   display: block;
+}
+
+/* ---------------My Portfolio section---------------- */
+#portfolio {
+  padding: 50px 0;
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.work {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  transition: transform 0.6s;
+}
+
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(133, 130, 130, 0.6), rgb(73, 94, 69));
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+.layer h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.layer a {
+  margin-top: 20px;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* 当鼠标放在图片上会变大 */
+.work:hover img {
+  transform: scale(1.2);
+}
+
+.work:hover .layer {
+  height: 100%;
+}
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #325939;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: rgb(156, 180, 156);
 }

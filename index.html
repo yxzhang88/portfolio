@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miranda.Z Personal Portfolio Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <!-- 引入FontAwesome样式表 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </style>
   </head>
   <body>
@@ -22,7 +24,8 @@
         </nav>
         <div class="header-text">
           <p>Lifelong learning mindset</p>
-          <h1>Hi, I am<span>Yanxian</span><br>from China</h1>
+          <h1>Hi, I am<span> Yanxian</span><br></h1>
+          <h2>someone who<br>springs out of bed<br>as soon as the alarm clock rings</h3>
         </div>
       </div>
     </div>
@@ -61,17 +64,64 @@
               <div class="tab-contents" id="projects">
                 <ul>
                   <li><span>Amazon Prime Video - Multiple Seek</span><br>Full Stack: Swift/SwiftUI/iOS</li>
-                  <li><span>Stay Close Web App</Applet></span><br>Front-end: JaveScript/React/Bootstrap</li>
-                  <li><span>Weather Report</span><br>Font-end: JavaScript/HTML/CSS</li>
+                  <li><span>Stay Close Web App</Applet></span><br>Front-end: JS/React/Bootstrap</li>
+                  <li><span>Weather Report</span><br>Font-end: JS/HTML/CSS</li>
                   <li><span>Inspiration-board</span><br>Full Stack: Js/React/CSS/Python/flask </li>
                   <li><span>Personal Portfolio</span><br>Front-end: JS/HTML/CSS</li>
                 </ul>
               </div>
-
           </div>
         </div>
       </div>
     </div>
+
+    <!-- ---------------About Me section---------------- -->
+    <!-- ---------------My protfolio section---------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Prime Video - Multiple Seek</h3>
+              <p>The enhancements of mutikple seek improved usability and responsiveness, resulting in a faster seeking experience for millions of users.</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+              <h3>Stay Close Web App</h3>
+              <p>A web app design for Adies community to share personal/professional life</p>
+              <a href="https://pje106.github.io/whose-turn/#/addTask"><i class="fa-solid fa-leaf"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Weather Report</h3>
+              <p>Small weather app that focuses on displaying the weather, set the weather using user interaction and get the weather from a 3rd party API, OpenWeather</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Inspiration-board</h3>
+              <p>An Inspiration Board that asks people to take notes of encouragement. </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Personal Portfolio Website</h3>
+              <p>A personal portfolio website presents my skills, projects, and accomplishments succinctly, to showcase the expertise and attract opportunities.</p>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/yxzhang88" class="btn">See more</a>
+      </div>
+    </div>
+
     <script>
       // 获取所有的选项卡内容块和选项卡标签元素
       var tablinks = document.getElementsByClassName('tab-links');

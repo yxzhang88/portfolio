@@ -28,7 +28,7 @@ This website is design friendly for all screen devices.
 3. About Me section
    - photo/description
    - professional experience
-   - personal experience
+   - project list
      - details:
        - Implemented dynamic tab functionality, enabling the display of corresponding description/content blocks upon tab click events.
        - This enhancement improves user experience, allowing easy navigation between different sections of the project.
@@ -36,6 +36,13 @@ This website is design friendly for all screen devices.
        - 添加了动态选项卡功能，现在点击选项卡时会触发事件显示相应的描述/内容块。
        - 这一功能提升了用户体验，使用户可以轻松地在不同的项目部分之间进行导航。
        - 更新了 HTML 结构以适应新功能并确保与 JavaScript 和 CSS 实现的一致性。
+4. My Work section
+   - photos/descrption
+     - details:
+       - The project section showcases projects with images and brief descriptions, revealing details upon hover, accompanied by a color overlay for enhanced visibility.
+       - Each project image comes to life with dynamic effects, ensuring an engaging user experience
+       - 项目部分展示带有图像和简短描述的项目，鼠标悬停时显示详细信息，并带有颜色叠加以增强可见性。
+       - 项目图像具有动态效果，确保引人入胜的用户体验
 
 ## Related information
 
