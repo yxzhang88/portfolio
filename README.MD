@@ -47,6 +47,8 @@ This website is design friendly for all screen devices.
    - add icons
    - add contact form
    - add download cv feature
+6. footer
+   - Copyright
 
 ## Related information
 

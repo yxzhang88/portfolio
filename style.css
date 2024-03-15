@@ -326,3 +326,17 @@ form .btn2 {
   margin-top: 20px;
   cursor: pointer;
 }
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #9c9c62;
+  font-weight: 300;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.copyright i {
+  color: rgb(240, 187, 50);
+}
