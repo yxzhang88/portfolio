@@ -331,7 +331,7 @@ form .btn2 {
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: #9c9c62;
+  background: rgb(130, 158, 130);
   font-weight: 300;
   margin-top: 20px;
   color: #fff;
@@ -384,5 +384,29 @@ nav .fa-solid {
     top: 25px;
     left: 25px;
     cursor: pointer;
+  }
+  .sub-title {
+    font-size: 40px;
+  }
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 93%;
+  }
+  .about-col-1 {
+    margin-bottom: 30px;
+  }
+  .about-col-2 {
+    font-size: 14px;
+  }
+  .tab-links {
+    font-size: 16px;
+    margin-right: 40px;
+  }
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+  .copyright {
+    font-size: 14px;
   }
 }

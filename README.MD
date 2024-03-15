@@ -56,6 +56,7 @@ This website is designed to be user-friendly across all screen sizes.
 ## Related information
 
 1. Can't see the contribution on github after push the commit
+
    - The reason is the user email in the git config of the local project is different from the email on GitHub. Therefore change the local one to be the same as the one on GitHub
    - run
      ```
@@ -68,6 +69,17 @@ This website is designed to be user-friendly across all screen sizes.
      ```
    - done
      **the noticeable difference lies on the commit page: if the commit is pushed using the github associated email, your username will be clickable. Otherwish, it won't work.**
+
+2. media queries
+
+   - a feature in CSS that allow to apply different styles based on the characteristics of the device or browser being used to view the page
+
+   '''
+   @media only screen and (max-width: 600px) { }
+   '''
+
+   - the screen width is 600px or less (typical for mobile devices)
+   - consider using relative units like _percentages_ and _em_ to ensure scalability across various screen sizes
 
 ## Author
 
