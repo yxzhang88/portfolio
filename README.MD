@@ -8,6 +8,7 @@
 
 ## Description
 
+link: https://yxzhang88.github.io/portfolio/
 The website will including some image, skill, projects, study/work experience.
 Also will add contact info and contact form at the footer, then these contact form data will be recevied from the google sheets.
 This website is designed to be user-friendly across all screen sizes.
@@ -83,6 +84,12 @@ This website is designed to be user-friendly across all screen sizes.
 
    - the screen width is 600px or less (typical for mobile devices)
    - consider using relative units like _percentages_ and _em_ to ensure scalability across various screen sizes
+
+3. Upload a website on Github page
+   - it has be a static website
+     - not using a server like python with flask or django
+     - no ruby on rails
+     - no node.js with express
 
 ## Author
 
